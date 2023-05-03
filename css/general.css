@@ -1,0 +1,59 @@
+/*
+--- 01 Typography System
+-Font size(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-font family
+Google font: 
+Default: sans-serif
+
+-Font Weight
+Default : 400
+heading-primary: 700
+
+-Line Height
+Default : 1
+heading-primary: 1.1
+
+
+--- 02 Color
+-Primary : 
+-Tints :
+-Shades
+-Accents
+-Grays : 
+
+
+
+--- 03 Shadow
+
+
+--- 04 Border Radius
+default: 9px;
+
+
+-Spacing System(px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128*/
+
+:root {
+  --bg-primary: #070500;
+  --bg-scondary: #130c00;
+  --primary: #ffbd33;
+  --text: #fbf8f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5 = 10px */
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: var(--text);
+  line-height: 1;
+}

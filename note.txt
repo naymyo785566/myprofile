@@ -1,0 +1,28 @@
+Background Color- #070500
+secondary bg color- #130c00
+primary color- #FFBD33
+Text color- #FBF8FS
+
+Font Family - Inter
+	    - Clicker Script
+
+Sub Title - My name
+Main Title - I am Web Developer
+	   - I am Web Designer
+	   - I am UI / UX Developer
+
+Description - 
+Skill	    - HTML 100%
+	    - CSS 50%
+	    - JavaScript 30%
+
+project	    -
+email	    -
+Ph no 	    -
+
+Education   -
+
+work Experience -
+
+Testimonials  -
+Blog Content  -
