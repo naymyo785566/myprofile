@@ -11,33 +11,1100 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      my-namereferrerpolicy="no-referrer"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
     />
     <!-- Style Link -->
+    <link rel="stylesheet" href="./css/chart.css" />
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/skins/color-1.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <!-- Hero section -->
-    <section class="section-hero">
-      <div class="container">
-        <div class="hero-content">
-          <p>Sub Title</p>
-          <h1>Main Title</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
-            voluptatibus quibusdam minus minima voluptas, possimus natus? Quae
-            commodi harum eius debitis, dolorem adipisci aliquam tempora
-            perspiciatis ut cum cupiditate odit?
+  <body class="sticky">
+    <header class="header">
+      <nav class="nav-group">
+        <div class="logo">My Portfolio</div>
+        <ul class="nav">
+          <li class="nav-list">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-list">
+            <a href="#work" class="nav-link">Works</a>
+          </li>
+          <li class="nav-list">
+            <a href="#exp" class="nav-link">My Experience</a>
+          </li>
+          <li class="nav-list">
+            <a href="#blog" class="nav-link">Blogs</a>
+          </li>
+          <li class="nav-list">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero" id="hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <span class="sub-heading"
+              >My name is <span class="my-name">Nay Myo Hlaing</span></span
+            >
+            <h1 class="heading-primary hero-title">
+              <span class="text first-text">I am</span>
+              <span class="text sec-text">Web Developer</span>
+            </h1>
+            <p class="hero-description">
+              I have always been interested in web development, and I have the
+              necessary skills required for the role. I have a good
+              understanding of HTML, CSS, JavaScript, and Jqueries. I am
+              currently improving my skills by learning various new
+              technologies.
+            </p>
+            <a href="#about" class="btn btn-full btn--more-detail"
+              >More Detail</a
+            >
+          </div>
+          <div class="hero-img-box">
+            <!-- <picture>
+            <source srcset="" type="image/jpeg" />
+            <source srcset="" type="image/jpeg" /> -->
+            <img
+              class="img-hero"
+              src="./img/flowchat/hero image.jpeg"
+              alt="My Picture"
+            />
+            <!-- </picture> -->
+          </div>
+        </div>
+      </section>
+      <section class="section-about" id="about">
+        <div class="container">
+          <h2 class="heading-secondary-small-section">Who I am</h2>
+        </div>
+        <div class="container grid grid--about">
+          <p class="bio-desc">
+            <span>My name is Nay Myo Hlaing. I'm Web Developer</span>
+            I have a solid understanding of HTML, CSS, JavaScript, and React and
+            keep up-to-date with the latest trends and technologies in the
+            field. In addition to my technical skills, I have excellent
+            problem-solving abilities and attention to detail.Although I haven't
+            work experience in web development, I have worked on personal
+            projects and have a portfolio that showcases my skills and
+            abilities. I'm able to work well in a team environment,
+            collaborating with other developers, designers, and stakeholders to
+            create high-quality web applications.
           </p>
-          <a href="#" class="btn">Download CV</a>
+          <div class="bio-list">
+            <ul>
+              <li class="bio-list-li">
+                <p class="bio-label">Name :</p>
+                <p>Nay Myo Hlaing</p>
+              </li>
+              <li class="bio-list-li">
+                <p class="bio-label">Email :</p>
+                <a href="mailto:naymyo785566@gmail.com"
+                  >naymyo785566@gmail.com</a
+                >
+              </li>
+              <li class="bio-list-li">
+                <p class="bio-label">Age :</p>
+                <p>24</p>
+              </li>
+              <li class="bio-list-li">
+                <p class="bio-label">From :</p>
+                <address>Meiktila , Myanmar</address>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-full">Download CV &Darr;</a>
+          </div>
         </div>
-        <div class="hero-img">
-          <img src="./img/flowchat/hero image.jpeg" alt="hello world" />
+      </section>
+
+      <section class="section-what-i-do">
+        <div class="container">
+          <h2 class="heading-secondary heading-center">
+            <span class="heading-underline">What I Do</span>
+          </h2>
         </div>
-      </div>
-    </section>
+        <div class="container what-i-do-contents grid-what-i-do grid--2--col">
+          <div class="what-i-do-group">
+            <div class="what-i-do-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <div class="what-i-do-content">
+              <h3 class="sub-heading">Graphic Design</h3>
+              <p>
+                I used Adobe Indesign, Photoshop, and CorelDraw to draw the
+                magazine cover designs and interior designs.
+              </p>
+            </div>
+          </div>
+          <div class="what-i-do-group">
+            <div class="what-i-do-icon">
+              <i class="fa-solid fa-icons"></i>
+            </div>
+            <div class="what-i-do-content">
+              <h3 class="sub-heading">UI / UX Design</h3>
+              <p>
+                I have a good view on UI / UX and can give advice to the client
+                based on experience and patiently design until it becomes a good
+                application.
+              </p>
+            </div>
+          </div>
+          <div class="what-i-do-group">
+            <div class="what-i-do-icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="what-i-do-content">
+              <h3 class="sub-heading">Backend Develop</h3>
+              <p>
+                A good code base, good logic, and error-free business flows can
+                be written well.
+              </p>
+            </div>
+          </div>
+          <div class="what-i-do-group">
+            <div class="what-i-do-icon">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="what-i-do-content">
+              <h3 class="sub-heading">Database Engineer</h3>
+              <p>
+                Database related to the application and connected can be
+                specially designed and easy to maintain.
+              </p>
+            </div>
+          </div>
+          <div class="what-i-do-group">
+            <div class="what-i-do-icon">
+              <i class="fa-solid fa-circle-nodes"></i>
+            </div>
+            <div class="what-i-do-content">
+              <h3 class="sub-heading">API Architecture</h3>
+              <p>
+                APIs can be properly written to work well in the Backend and
+                Frontend.
+              </p>
+            </div>
+          </div>
+          <div class="what-i-do-group">
+            <div class="what-i-do-icon">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <div class="what-i-do-content">
+              <h3 class="sub-heading">Mobile Developing</h3>
+              <p>
+                I can design Andorid and IOS apps using Cross Platform Framework
+                such as React Native and Flutter.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="heading-secondary heading-center">
+            <span class="heading-underline">My Skill</span>
+          </h2>
+        </div>
+        <div class="circle-chart-container grid grid--5--col">
+          <!-- chart-group 1 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">HTML</p>
+          </div>
+          <!-- chart-group 2 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">50%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">CSS</p>
+          </div>
+          <!-- chart-group 3 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">30%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">JavaScript</p>
+          </div>
+          <!-- chart-group 4 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">React JS</p>
+          </div>
+          <!-- chart-group 5 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Vue JS</p>
+          </div>
+          <!-- chart-group 6 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">jQuery</p>
+          </div>
+          <!-- chart-group 7 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Bootstrap 5</p>
+          </div>
+          <!-- chart-group 8 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Tailwind CSS</p>
+          </div>
+          <!-- chart-group 9 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">AJAX</p>
+          </div>
+          <!-- chart-group 10 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Node .JS</p>
+          </div>
+          <!-- chart-group 11 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">PHP</p>
+          </div>
+          <!-- chart-group 12 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Laravel</p>
+          </div>
+          <!-- chart-group 13 -->
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Wordpress</p>
+          </div>
+          <!-- chart-group 14 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">React Native</p>
+          </div>
+          <!-- chart-group 15 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Flutter</p>
+          </div>
+          <!-- chart-group 16 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">My SQL</p>
+          </div>
+          <!-- chart-group 17 -->
+
+          <div class="circle-chart-group">
+            <div class="chart">
+              <div class="skill">
+                <div class="outer">
+                  <div class="inner">
+                    <div id="number">100%</div>
+                  </div>
+                </div>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  width="160px"
+                  height="160px"
+                >
+                  <defs>
+                    <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#DA22FF" />
+                      <stop offset="100%" stop-color="#9733EE" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+              </div>
+            </div>
+            <p class="skill-name">Mongo DB</p>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="heading-secondary heading-center experience-title">
+            <span class="heading-underline">My Experiences</span>
+          </h2>
+        </div>
+        <div class="container grid-exp grid--4--col">
+          <div class="experience-all">
+            <p class="exp-num">12</p>
+            <p class="exp-title">Years of <br />Experience</p>
+          </div>
+          <div class="experience-all">
+            <p class="exp-num">97</p>
+            <p class="exp-title">Complete <br />Projects</p>
+          </div>
+          <div class="experience-all">
+            <p class="exp-num">81</p>
+            <p class="exp-title">Happy <br />Customers</p>
+          </div>
+          <div class="experience-all">
+            <p class="exp-num">53</p>
+            <p class="exp-title">Awards <br />Won</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-work" id="work">
+        <div class="container">
+          <h2 class="heading-secondary heading-center">
+            <span class="heading-underline">My Works</span>
+          </h2>
+          <ul class="work-nav-ul">
+            <li class="work-nav-li">
+              <a href="#" class="work-nav-link active">All Projects</a>
+            </li>
+            <li class="work-nav-li">
+              <a href="#" class="work-nav-link">Training Project</a>
+            </li>
+            <li class="work-nav-li">
+              <a href="#" class="work-nav-link">My Project - Website</a>
+            </li>
+            <li class="work-nav-li">
+              <a href="#" class="work-nav-link">My Project - Web App</a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-project grid--5--col">
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/1.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/2.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/3.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/4.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/5.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/6.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/7.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/8.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/9.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-img"
+              src="./img/My Project/10.jpg"
+              alt="training"
+            />
+            <figcaption class="project-capt">This is my project</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="section-edu">
+        <div class="container">
+          <h2 class="heading-secondary">My Education</h2>
+        </div>
+        <div class="container grid grid--2--col">
+          <div class="edu-group">
+            <div class="edu-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="edu-contents">
+              <div class="edu-years">2014-2015</div>
+              <div class="edu-title">Basic Education</div>
+              <div class="edu-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dolorem vero nam adipisci voluptatibus mollitia
+                necessitatibus, est fugit sapiente placeat deleniti alias sequi
+                ducimus dolore voluptas ex quos dolorum iusto?
+              </div>
+            </div>
+          </div>
+          <div class="edu-group">
+            <div class="edu-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="edu-contents">
+              <div class="edu-years">2019</div>
+              <div class="edu-title">B.Sc(Mathematics)</div>
+              <div class="edu-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dolorem vero nam adipisci voluptatibus mollitia
+                necessitatibus, est fugit sapiente placeat deleniti alias sequi
+                ducimus dolore voluptas ex quos dolorum iusto?
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-exp" id="exp">
+        <div class="container">
+          <h2 class="heading-secondary">My Experience</h2>
+        </div>
+        <div class="container grid grid--3--col">
+          <div class="exp-group">
+            <div class="exp-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="exp-contents">
+              <div class="exp-years">2020 - 2021</div>
+              <div class="exp-heading">Myanmar Newsweek Journal</div>
+              <div class="exp-desc">
+                position &mdash; Graphic Designer / Layout Designer and DTP
+              </div>
+            </div>
+          </div>
+          <div class="exp-group">
+            <div class="exp-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="exp-contents">
+              <div class="exp-years">2021 - 2022</div>
+              <div class="exp-heading">MNG Computer Training Center</div>
+              <div class="exp-desc">
+                position &mdash; Computer Instructor (PartTime)
+              </div>
+            </div>
+          </div>
+          <div class="exp-group">
+            <div class="exp-icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="exp-contents">
+              <div class="exp-years">2022 - 2023</div>
+              <div class="exp-heading">Hello World</div>
+              <div class="exp-desc">position &mdash; Junior Web Developer</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimnoial">
+        <div class="container">
+          <h2 class="heading-secondary heading-center">
+            <span>Testimonial</span>
+          </h2>
+        </div>
+        <div
+          class="container teatimonial-contents grid-testimonial grid--2--col"
+        >
+          <div class="test-contents-all">
+            <div class="testimonial-group">
+              <div class="testimonial-photo">
+                <img
+                  src="./img/Testimonial/testimonial-1.jpg"
+                  alt="teatimonial person"
+                  class="testimonial-img"
+                />
+              </div>
+              <div class="testimonial-content">
+                <p class="client-name">Stave Roja</p>
+                <span class="position">CEO &dash; Microsoft</span>
+              </div>
+            </div>
+            <div class="testimonial-desc">
+              <p class="text-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
+                quam, laboriosam aut tempora dolor laborum voluptas aliquid eos
+                pariatur ipsum dolore doloribus ratione quae est! Repellat
+                libero a doloremque voluptatibus.
+              </p>
+              <div class="rating-group">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="test-contents-all">
+            <div class="testimonial-group">
+              <div class="testimonial-photo">
+                <img
+                  src="./img/Testimonial/testimonial-2.jpg"
+                  alt="teatimonial person"
+                  class="testimonial-img"
+                />
+              </div>
+              <div class="testimonial-content">
+                <p class="client-name">Stave Roja</p>
+                <span class="position">CEO &dash; Apple</span>
+              </div>
+            </div>
+            <div class="testimonial-desc">
+              <p class="text-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
+                quam, laboriosam aut tempora dolor laborum voluptas aliquid eos
+                pariatur ipsum dolore doloribus ratione quae est! Repellat
+                libero a doloremque voluptatibus.
+              </p>
+              <div class="rating-group">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-blog" id="blog">
+        <div class="container">
+          <h2 class="heading-secondary heading-center">
+            <span>My Blog</span>
+          </h2>
+        </div>
+        <div class="container grid grid--3--col">
+          <div class="blog-group">
+            <div class="blog-image">
+              <img src="./img/blog photo/1.jpg" alt="" class="img-blog" />
+            </div>
+            <div class="blog-content">
+              <h3 class="blog-title">Hello Word</h3>
+              <p class="blog-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium dolorum facilis numquam esse obcaecati doloribus
+                itaque corrupti alias culpa. Molestiae aliquid quo repellat
+                iusto voluptate quasi consectetur rem esse accusantium!
+              </p>
+            </div>
+          </div>
+          <div class="blog-group">
+            <div class="blog-image">
+              <img src="./img/blog photo/2.jpg" alt="" class="img-blog" />
+            </div>
+            <div class="blog-content">
+              <h3 class="blog-title">Hello Word</h3>
+              <p class="blog-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium dolorum facilis numquam esse obcaecati doloribus
+                itaque corrupti alias culpa. Molestiae aliquid quo repellat
+                iusto voluptate quasi consectetur rem esse accusantium!
+              </p>
+            </div>
+          </div>
+          <div class="blog-group">
+            <div class="blog-image">
+              <img src="./img/blog photo/3.png" alt="" class="img-blog" />
+            </div>
+            <div class="blog-content">
+              <h3 class="blog-title">Hello Word</h3>
+              <p class="blog-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium dolorum facilis numquam esse obcaecati doloribus
+                itaque corrupti alias culpa. Molestiae aliquid quo repellat
+                iusto voluptate quasi consectetur rem esse accusantium!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact" id="contact">
+        <div class="container">
+          <h2 class="heading-secondary heading-center">
+            <span>Get In Touch</span>
+          </h2>
+        </div>
+        <div class="container grid grid-contact">
+          <div class="contact-group">
+            <h3 class="contact-title">DON'T BE SHY !</h3>
+            <p class="contact-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              earum maxime expedita optio quas natus suscipit ducimus
+            </p>
+            <div class="mail-group">
+              <div class="mail-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="mail-contact">
+                <div class="mail-title">Mail Me</div>
+                <div class="mail">
+                  <a href="mailto:naymyo785566@gmail.com"
+                    >naymyo785566@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="ph-group">
+              <div class="ph-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="ph-contact">
+                <div class="ph-title">Call Me</div>
+                <div class="ph">
+                  <a href="tel:+959-785-566-110">+959-785-566-110</a>
+                </div>
+              </div>
+            </div>
+            <ul class="social-group">
+              <li>
+                <a href="#" class="social-link"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="input-group">
+            <form class="form-input">
+              <div class="first-row">
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="Your Email" />
+                <input type="text" placeholder="Your Subject" />
+              </div>
+              <div class="sec-row">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </div>
+              <div class="thi-row">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- Font awesome Link -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
@@ -50,3 +1117,5 @@
     <script src="./js/script.js"></script>
   </body>
 </html>
+
+<!-- ================================================================ -->
